@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Task Master</string>
+    <string name="imageView">Just an Image</string>
+    <string name="allBtn">All Tasks</string>
+    <string name="addBtn">Add Task</string>
+    <string name="myTasks">My Tasks</string>
+    <string name="taskTitle">Task Title</string>
+    <string name="taskDescription">Task Description</string>
+    <string name="myTask">My Task</string>
+    <string name="doSomething">Do Something</string>
+    <string name="totalTasks">Total tasks: 0</string>
+</resources>
