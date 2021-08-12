@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#D62222"
     android:backgroundTint="#FBD1D1"
-    tools:context=".firstActivity">
+    tools:context=".AddTaskActivity">
 
     <TextView
         android:id="@+id/textView2"
@@ -33,7 +33,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/TaskTitleInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="80dp"
@@ -48,19 +48,19 @@
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="320dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="260dp"
         android:text="@string/taskDescription"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/TaskBodyInput"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="368dp"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="296dp"
         android:ems="10"
         android:inputType="textPersonName"
         android:text="@string/doSomething"
@@ -71,8 +71,8 @@
         android:id="@+id/addTaskButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="464dp"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="460dp"
         android:background="#530606"
         android:backgroundTint="#1B0000"
         android:text="@string/addBtn"
@@ -82,13 +82,22 @@
         app:rippleColor="@color/teal_200" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/tasksCount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="72dp"
-        android:layout_marginTop="564dp"
-        android:text="@string/totalTasks"
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="544dp"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TaskBodyInput" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

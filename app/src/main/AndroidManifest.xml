@@ -16,7 +16,7 @@
             android:name=".SettingActivity"
             android:exported="true" />
         <activity
-            android:name=".firstActivity"
+            android:name=".AddTaskActivity"
             android:exported="true" />
         <activity
             android:name=".secondActivity"

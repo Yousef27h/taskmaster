@@ -31,7 +31,7 @@
 21-->C:\Users\yousef\AndroidStudioProjects\TaskMaster\app\src\main\AndroidManifest.xml:11:9-48
 22        <activity
 22-->C:\Users\yousef\AndroidStudioProjects\TaskMaster\app\src\main\AndroidManifest.xml:12:9-14:39
-23            android:name="com.example.taskmaster.firstActivity"
+23            android:name="com.example.taskmaster.AddTaskActivity"
 23-->C:\Users\yousef\AndroidStudioProjects\TaskMaster\app\src\main\AndroidManifest.xml:13:13-42
 24            android:exported="true" />
 24-->C:\Users\yousef\AndroidStudioProjects\TaskMaster\app\src\main\AndroidManifest.xml:14:13-36

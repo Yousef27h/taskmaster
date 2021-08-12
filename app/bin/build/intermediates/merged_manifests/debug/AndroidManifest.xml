@@ -20,7 +20,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.TaskMaster" >
         <activity
-            android:name="com.example.taskmaster.firstActivity"
+            android:name="com.example.taskmaster.AddTaskActivity"
             android:exported="true" />
         <activity
             android:name="com.example.taskmaster.secondActivity"
