@@ -11,12 +11,14 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
 
-    ArrayList<Task> tasks;
+    List<Task> tasks;
     OnTaskClickListener listener;
     public static final String TAG = "Task Adapter";
+
 
 
     public interface OnTaskClickListener{
@@ -24,7 +26,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
         void deleteItem(int position);
     }
 
-    public ViewAdapter(ArrayList<Task> tasks, OnTaskClickListener listener) {
+    public ViewAdapter(List<Task> tasks, OnTaskClickListener listener) {
         this.tasks = tasks;
         this.listener = listener;
     }
@@ -70,6 +72,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
         String title  = tasks.get(position).getTitle();
         String body = tasks.get(position).getBody();
         String state = tasks.get(position).getState();
+
 
         holder.titleTask.setText(title);
         holder.bodyTask.setText(body);
