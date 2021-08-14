@@ -3,15 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
 
 
     <androidx.cardview.widget.CardView
+        style="@style/CardView.Dark"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        app:cardCornerRadius="20dp"
-        app:cardElevation="20dp">
+        app:cardCornerRadius="20dp">
 
 
         <TextView
@@ -20,6 +21,7 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="Task Title"
+            android:textColor="@color/white"
             android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintTop_toTopOf="parent" />
@@ -45,6 +47,7 @@
             android:layout_marginStart="150dp"
             android:layout_marginTop="11dp"
             android:text="Task Body"
+            android:textColor="@color/white"
             app:layout_constraintStart_toEndOf="@+id/imageView3"
             app:layout_constraintTop_toBottomOf="@+id/titleTask" />
 
@@ -55,6 +58,7 @@
             android:layout_marginStart="150dp"
             android:layout_marginTop="33dp"
             android:text="State"
+            android:textColor="@color/white"
             android:textSize="14sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
