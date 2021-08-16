@@ -46,10 +46,7 @@ public class ViewAdapter extends RecyclerView.Adapter<ViewAdapter.ViewHolder> {
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override
-                public void onClick(View view) {
-                    Log.i(TAG, "onClick: Clicked"+ getAdapterPosition());
-                    listener.onItemClicked(getAdapterPosition());
-                }
+                public void onClick(View view) { listener.onItemClicked(getAdapterPosition()); }
             });
             deleteBtn.setOnClickListener(new View.OnClickListener() {
                 @Override

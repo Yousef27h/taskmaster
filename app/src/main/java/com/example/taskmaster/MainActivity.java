@@ -84,6 +84,8 @@ public class MainActivity extends AppCompatActivity {
             public void onItemClicked(int position) {
                 Intent intent = new Intent(getBaseContext(), TaskDetailsActivity.class);
                 intent.putExtra("task_name",tasks.get(position).getTitle());
+                intent.putExtra("task_description",tasks.get(position).getBody());
+                intent.putExtra("task_state",tasks.get(position).getState());
                 startActivity(intent);
             }
 

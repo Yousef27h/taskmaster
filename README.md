@@ -25,5 +25,9 @@ Daily change log:
 
 9th of August, 2021: Added new Settings image button, which navigates the user to new activity to add his username and save it, then render it inside home page as title. Also, two task details buttons were added each one renders its text value in new page.
 
-11th of Augus, 2021: Added RecyclerView to home page, with functionality to add task by pressing "Add Task" button and it will appear in the list in the home page.
+11th of August, 2021: Added RecyclerView to home page, with functionality to add task by pressing "Add Task" button and it will appear in the list in the home page.
+
+12th of August, 2021: Added local data base using room library, also added menu button contains settings tab.
+
+15th of August, 2021: create tests to test different actions in the app using espresso.
 
